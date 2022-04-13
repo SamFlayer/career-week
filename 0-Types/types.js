@@ -64,23 +64,23 @@
 
 // printObject(Symbol())
 
-// console.log(NaN + 1);
-// console.log(undefined + 1);
-// console.log(null + 1);
-// console.log(null + 'null');
-// console.log('undefined' + undefined);
-// console.log([] + 'hello');
+// console.log(NaN + 1); NaN
+// console.log(undefined + 1); NaN
+// console.log(null + 1); 1
+// console.log(null + 'null'); nullnull
+// console.log('undefined' + undefined); undefinedundefined
+// console.log([] + 'hello'); hello
 
-// console.log(String([[], [[1], 2]]));
-// console.log(Number([[], [[1], 2]]));
-// console.log(Number({ valueOf: () => 4 }));
-// console.log(String([[[[]]]]));
-// console.log(String({ valueOf: () => 2 }));
-// console.log(String({ valueOf: () => 'string' }));
-// console.log(String({ toString: () => 'i am object' }));
-// console.log(Number({ toString: () => 'old unused number' }));
-// console.log(String({ toString: () => 1 }));
-// console.log(String([{ toString: () => 'object number 1' }, { toString: () => 'object number 2' }]));
+// console.log(String([[], [[1], 2]]));   ",1,2"
+// console.log(Number([[], [[1], 2]]));   "NaN"
+// console.log(Number({ valueOf: () => 4 }));   4
+// console.log(String([[[[]]]]));   ""
+// console.log(String({ valueOf: () => 2 }));   "[object Object]"
+// console.log(String({ valueOf: () => 'string' }));   "[object Object]"
+// console.log(String({ toString: () => 'i am object' }));   "i am object"
+// console.log(Number({ toString: () => 'old unused number' }));   NaN
+// console.log(String({ toString: () => 1 }));   "1"
+// console.log(String([{ toString: () => 'object number 1' }, { toString: () => 'object number 2' }]));   "object number 1,object number 2"
 
 // cc
 // console.log(Boolean(new Boolean(false)));

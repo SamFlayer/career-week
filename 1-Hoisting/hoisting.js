@@ -32,13 +32,13 @@
 //
 // // 3
 
-console.log(y);
-console.log(z);
-console.log(x);
+// console.log(y);
+// console.log(z);
+// console.log(x);
 
-y = 'y';
-let x = 'x';
-var z = 'z';
+// y = 'y';
+// let x = 'x';
+// var z = 'z';
 
 // // 4
 //
